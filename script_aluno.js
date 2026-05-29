@@ -21,7 +21,7 @@ function calcularCompra() {
     // DICA: Use a estrutura -> if (variavel.toUpperCase() === "VALOR") { valor da vaiável desconto}
     
     let desconto = 0;
-    if (cupomDigitado.toUpperCase() === "Promo10") {
+    if (cupomDigitado.toUpperCase() === "promo10") {
         desconto = 10;
     }
     
